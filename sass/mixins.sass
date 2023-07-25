@@ -1,0 +1,30 @@
+@mixin headerName-bg
+  background-color: #fb3f4c
+  background-image: linear-gradient(74deg, rgba(251,63,76,1) 0%, rgba(252,73,251,1) 53%, rgba(252,201,70,1) 100%)
+  background: -moz-linear-gradient(74deg, rgba(251,63,76,1) 0%, rgba(252,73,251,1) 53%, rgba(252,201,70,1) 100%)
+  background: -webkit-linear-gradient(74deg, rgba(251,63,76,1) 0%, rgba(252,73,251,1) 53%, rgba(252,201,70,1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb3f4c",endColorstr="#fcc946",GradientType=1)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+
+@mixin trans
+  transition: all ease-in-out 0.5s
+
+@mixin background-animation
+  background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69))
+  background-size: 400% 100vh
+  animation: animatedBg 5s infinite ease-in-out
+  @keyframes animatedBg
+    0%
+      background-position: 0 50%
+    50%
+      background-position: 100% 50%
+    100%
+      background-position: 0 50%
+
+@mixin button-red
+  padding: 10px
+  background-color: rgba(255, 0, 0, 0.9)
+  display: block
+  border-radius: 10px
+  color: #ffffff

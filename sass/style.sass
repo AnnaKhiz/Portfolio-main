@@ -1,0 +1,299 @@
+@import "variables"
+@import "mixins"
+@import "reset"
+@import "burger"
+
+//*
+  border: 1px solid red
+
+body, html
+  height: 100%
+  scrollbar-color: #833ab4 #f7b2b2
+  scrollbar-width: thin
+.wrapper
+  //background-color: #fbf8f0
+  min-height: 100%
+  display: flex
+  flex-direction: column
+
+.container
+  max-width: 1550px
+  padding: 0 15px
+  margin: 0 auto
+
+
+
+::-webkit-scrollbar
+  width: 3px
+  background: -webkit-gradient(linear, left top, right top, from(rgb(131, 58, 180)), color-stop(rgb(253, 29, 29)), to(rgb(252, 176, 69)))
+  background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69))
+::-webkit-scrollbar-thumb
+  width: 3px
+  background-color: rgb(131, 58, 180, 50%)
+::-webkit-scrollbar-thumb:hover
+  width: 3px
+  background-color: rgb(252, 176, 69)
+.header
+  @include background-animation
+  padding: 20px 0 0px 0
+  &__name
+    color: cornsilk
+    font-size: 2rem
+    font-weight: 700
+    //@include headerName-bg
+  &__flexbox
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 50px
+  &__navigation ul
+    display: flex
+    column-gap: 15px
+    align-items: center
+    justify-content: right
+    @media screen and (max-width: 768px)
+      display: none
+    & a
+      color: cornsilk
+      font-size: 1.2rem
+      @include trans
+      &:hover
+        @include trans
+        padding-bottom: 3px
+        border-bottom: 1.5px solid cornsilk
+  &__waves
+    & .waves
+      position: relative
+      width: 100%
+      height: 15vh
+      margin-bottom: -7px
+      min-height: 100px
+      //max-height: 150px
+      @media screen and (max-width: 768px)
+        height: 40px
+        min-height: 40px
+    & .parallax
+      & > use
+        -webkit-animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite
+        animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite
+      & > use:nth-child(1)
+        -webkit-animation-delay: -2s
+        animation-delay: -2s
+        -webkit-animation-duration: 7s
+        animation-duration: 7s
+      & > use:nth-child(2)
+        -webkit-animation-delay: -3s
+        animation-delay: -3s
+        -webkit-animation-duration: 10s
+        animation-duration: 10s
+      & > use:nth-child(3)
+        -webkit-animation-delay: -4s
+        animation-delay: -4s
+        -webkit-animation-duration: 13s
+        animation-duration: 13s
+      & > use:nth-child(4)
+        -webkit-animation-delay: -5s
+        animation-delay: -5s
+        -webkit-animation-duration: 20s
+        animation-duration: 20s
+  @-webkit-keyframes move-forever
+    0%
+      -webkit-transform: translate3d(-90px,0,0)
+      transform: translate3d(-90px,0,0)
+    100%
+      -webkit-transform: translate3d(85px,0,0)
+      transform: translate3d(85px,0,0)
+  @keyframes move-forever
+    0%
+      -webkit-transform: translate3d(-90px,0,0)
+      transform: translate3d(-90px,0,0)
+    100%
+      -webkit-transform: translate3d(85px,0,0)
+      transform: translate3d(85px,0,0)
+
+.main
+  padding: 40px 0
+  background-color: #ffffff
+  flex: 0 1 auto
+  &__gallery
+    display: flex
+    column-gap: 30px
+    row-gap: 30px
+    flex-wrap: wrap
+    justify-content: center
+    &-item
+      align-items: center
+      justify-content: center
+      width: 31.333%
+      height: 350px
+      position: relative
+      box-shadow: 1px 1px 10px black
+      @media screen and (max-width: 900px)
+        width: 47.333%
+      @media screen and (max-width: 600px)
+        width: 100%
+      &-img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        overflow: hidden
+        @include trans
+        &:hover
+          overflow-y: auto
+          @include trans
+        & img
+          width: 100%
+          height: auto
+          &:hover
+            @include trans
+            transform: scale3d(0.9, 0.9, 0.3) translateY(-5%)
+            perspective: -1
+            cursor: grabbing
+    &-textBlock
+      position: absolute
+      bottom: 0
+      left: 0
+      background-color: rgba(3, 3, 3, 0.3)
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      align-items: flex-start
+      padding: 10px 10px
+      @include trans
+      @media screen and (max-width: 768px)
+        background-color: rgba(3, 3, 3, 0.7)
+        border-top-right-radius: 80%
+        height: 200px
+      @media screen and (min-width: 768px)
+        &:hover
+          @include trans
+          background-color: rgba(3, 3, 3, 0.7)
+          border-top-right-radius: 80%
+          height: 200px
+          h3.main__gallery-textBlock-label
+            @include trans
+            display: block
+            color: cornsilk
+            margin-bottom: 20px
+          p.main__gallery-textBlock-info
+            @include trans
+            display: block
+            color: cornsilk
+            margin-bottom: 15px
+      &-label, &-info
+        display: none
+        max-width: 150px
+        @include trans
+        @media screen and (max-width: 768px)
+          display: block
+          color: cornsilk
+      &-label
+        @media screen and (max-width: 768px)
+          margin-bottom: 20px
+      &-info
+        @media screen and (max-width: 768px)
+          margin-bottom: 15px
+      &-button
+        //margin-top: auto
+        @include button-red
+        &:hover
+          @include background-animation
+          //animation: animatedBg 3s infinite ease-in-out
+  &__education
+
+    &-block
+      display: flex
+      justify-content: center
+      column-gap: 30px
+      row-gap: 30px
+      //align-items: center
+      flex-wrap: wrap
+    &-item
+      width: 33.333%
+      position: relative
+      box-shadow: 1px 1px 10px black
+      @media screen and (max-width: 900px)
+        width: 47.333%
+      @media screen and (max-width: 600px)
+        width: 100%
+      //& > .diploma:hover
+        //transform: rotateY(-180deg)
+        transition: all 0.8s ease 0s
+      &-bg
+        position: absolute
+        left: 0
+        bottom: 0
+        background-color: rgba(3, 3, 3, 0.3)
+        padding: 10px
+
+      & img
+        width: 100%
+        height: auto
+      &-button
+        @include button-red
+        width: fit-content
+        &:hover
+          @include background-animation
+      &.diploma
+        box-shadow: none
+        & .front
+          position: absolute
+          top: 0
+          right: 0
+          z-index: 2
+          transition: all 1s ease-in-out 0s
+          &:hover
+            transition: all 1s ease-in-out 0s
+            opacity: 0
+        & .back
+          transform: scaleY(1)
+
+
+
+.footer
+  @include background-animation
+  padding: 30px 0
+
+  position: relative
+  &__flexBlock
+    display: flex
+    justify-content: space-between
+    align-items: center
+    @media screen and (max-width: 550px)
+      display: block
+
+  &__contacts
+    @media screen and (max-width: 550px)
+      margin: 30px 0
+  &__contacts-item
+    display: flex
+    align-items: center
+    @media screen and (max-width: 550px)
+      flex-direction: column
+      margin-bottom: 20px
+    & svg
+      fill: #ffffff
+      margin-right: 10px
+      @include trans
+      &:hover
+        @include trans
+        fill: #e5dfe0
+    & a
+      color: cornsilk
+      font-size: 1.5rem
+      &:hover
+        @include headerName-bg
+  &__social
+    display: flex
+    column-gap: 10px
+    @media screen and (max-width: 550px)
+      justify-content: center
+    & svg
+      fill: #ffffff
+      @include trans
+      &:hover
+        @include trans
+        fill: #e5dfe0
+
+
+
