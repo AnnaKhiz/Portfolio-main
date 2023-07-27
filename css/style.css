@@ -558,7 +558,34 @@ body, html {
 .main__education-item.diploma .back {
   transform: scaleY(1);
 }
-
+.main__resume {
+  font: normal 1.2rem/1.5rem "Times New Roman", sans-serif;
+}
+.main__resume-label {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-style: italic;
+  margin-bottom: 10px;
+  background-color: #fb3f4c;
+  background-image: linear-gradient(74deg, rgb(251, 63, 76) 0%, rgb(252, 73, 251) 53%, rgb(252, 201, 70) 100%);
+  background: -moz-linear-gradient(74deg, rgb(251, 63, 76) 0%, rgb(252, 73, 251) 53%, rgb(252, 201, 70) 100%);
+  background: -webkit-linear-gradient(74deg, rgb(251, 63, 76) 0%, rgb(252, 73, 251) 53%, rgb(252, 201, 70) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb3f4c",endColorstr="#fcc946",GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main__resume ul, .main__resume .qualities, .main__resume .experience {
+  margin-bottom: 20px;
+}
+.main__resume ul li > a, .main__resume .qualities li > a, .main__resume .experience li > a {
+  color: #833ab4;
+  transition: all 0.5s ease-in-out 0s;
+}
+.main__resume ul li > a:hover, .main__resume .qualities li > a:hover, .main__resume .experience li > a:hover {
+  color: brown;
+  text-decoration: underline;
+  transition: all 0.5s ease-in-out 0s;
+}
 .footer {
   background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
   background-size: 400% 100vh;

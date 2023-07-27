@@ -248,7 +248,25 @@ body, html
         & .back
           transform: scaleY(1)
 
-
+  &__resume
+    font: normal 1.2rem/1.5rem "Times New Roman", sans-serif
+    &-label
+      font-size: 1.5rem
+      line-height: 1.8rem
+      font-style: italic
+      margin-bottom: 10px
+      @include headerName-bg
+    & ul, .qualities, .experience
+      margin-bottom: 20px
+      & li > a
+        color: #833ab4
+        transition: all 0.5s ease-in-out 0s
+        &:hover
+          color: brown
+          text-decoration: underline
+          transition: all 0.5s ease-in-out 0s
+      & li > span
+        //font-weight: 600
 
 .footer
   @include background-animation
