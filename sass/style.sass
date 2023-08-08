@@ -3,15 +3,11 @@
 @import "reset"
 @import "burger"
 
-//*
-  border: 1px solid red
-
 body, html
   height: 100%
   scrollbar-color: #833ab4 #f7b2b2
   scrollbar-width: thin
 .wrapper
-  //background-color: #fbf8f0
   min-height: 100%
   display: flex
   flex-direction: column
@@ -20,7 +16,6 @@ body, html
   max-width: 1550px
   padding: 0 15px
   margin: 0 auto
-
 
 
 ::-webkit-scrollbar
@@ -40,7 +35,6 @@ body, html
     color: cornsilk
     font-size: 2rem
     font-weight: 700
-    //@include headerName-bg
   &__flexbox
     display: flex
     justify-content: space-between
@@ -68,7 +62,6 @@ body, html
       height: 15vh
       margin-bottom: -7px
       min-height: 100px
-      //max-height: 150px
       @media screen and (max-width: 768px)
         height: 40px
         min-height: 40px
@@ -162,13 +155,13 @@ body, html
       @include trans
       @media screen and (max-width: 768px)
         background-color: rgba(3, 3, 3, 0.7)
-        border-top-right-radius: 80%
+        border-top-right-radius: 65%
         height: 200px
       @media screen and (min-width: 768px)
         &:hover
           @include trans
           background-color: rgba(3, 3, 3, 0.7)
-          border-top-right-radius: 80%
+          border-top-right-radius: 65%
           height: 200px
           h3.main__gallery-textBlock-label
             @include trans
@@ -183,6 +176,7 @@ body, html
       &-label, &-info
         display: none
         max-width: 160px
+        overflow: hidden
         @include trans
         @media screen and (max-width: 768px)
           display: block
@@ -194,19 +188,15 @@ body, html
         @media screen and (max-width: 768px)
           margin-bottom: 15px
       &-button
-        //margin-top: auto
         @include button-red
         &:hover
           @include background-animation
-          //animation: animatedBg 3s infinite ease-in-out
   &__education
-
     &-block
       display: flex
       justify-content: center
       column-gap: 30px
       row-gap: 30px
-      //align-items: center
       flex-wrap: wrap
     &-item
       width: 33.333%
@@ -216,16 +206,12 @@ body, html
         width: 47.333%
       @media screen and (max-width: 600px)
         width: 100%
-      //& > .diploma:hover
-        //transform: rotateY(-180deg)
-        transition: all 0.8s ease 0s
       &-bg
         position: absolute
         left: 0
         bottom: 0
         background-color: rgba(3, 3, 3, 0.3)
         padding: 10px
-
       & img
         width: 100%
         height: auto
@@ -247,7 +233,6 @@ body, html
             opacity: 0
         & .back
           transform: scaleY(1)
-
   &__resume
     font: normal 1.2rem/1.5rem "Times New Roman", sans-serif
     &-label
@@ -265,13 +250,10 @@ body, html
           color: brown
           text-decoration: underline
           transition: all 0.5s ease-in-out 0s
-      & li > span
-        //font-weight: 600
 
 .footer
   @include background-animation
   padding: 30px 0
-
   position: relative
   &__flexBlock
     display: flex
@@ -279,7 +261,6 @@ body, html
     align-items: center
     @media screen and (max-width: 600px)
       display: block
-
   &__contacts
     @media screen and (max-width: 600px)
       margin: 30px 0

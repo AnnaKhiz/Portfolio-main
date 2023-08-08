@@ -416,7 +416,7 @@ body, html {
 @media screen and (max-width: 768px) {
   .main__gallery-textBlock {
     background-color: rgba(3, 3, 3, 0.7);
-    border-top-right-radius: 80%;
+    border-top-right-radius: 65%;
     height: 200px;
   }
 }
@@ -424,7 +424,7 @@ body, html {
   .main__gallery-textBlock:hover {
     transition: all ease-in-out 0.5s;
     background-color: rgba(3, 3, 3, 0.7);
-    border-top-right-radius: 80%;
+    border-top-right-radius: 65%;
     height: 200px;
   }
   .main__gallery-textBlock:hover h3.main__gallery-textBlock-label {
@@ -443,6 +443,7 @@ body, html {
 .main__gallery-textBlock-label, .main__gallery-textBlock-info {
   display: none;
   max-width: 160px;
+  overflow: hidden;
   transition: all ease-in-out 0.5s;
 }
 @media screen and (max-width: 768px) {
@@ -586,6 +587,7 @@ body, html {
   text-decoration: underline;
   transition: all 0.5s ease-in-out 0s;
 }
+
 .footer {
   background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
   background-size: 400% 100vh;
