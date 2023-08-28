@@ -587,6 +587,11 @@ body, html {
   text-decoration: underline;
   transition: all 0.5s ease-in-out 0s;
 }
+.main__resume .qualities li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 10px;
+}
 
 .footer {
   background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
