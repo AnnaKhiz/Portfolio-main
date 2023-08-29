@@ -561,6 +561,13 @@ body, html {
 }
 .main__resume {
   font: normal 1.2rem/1.5rem "Times New Roman", sans-serif;
+  max-width: 60%;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .main__resume {
+    max-width: 100%;
+  }
 }
 .main__resume-label {
   font-size: 1.5rem;
@@ -591,6 +598,9 @@ body, html {
   list-style-type: disc;
   list-style-position: inside;
   margin-left: 10px;
+}
+.main__resume .purpose {
+  margin-bottom: 20px;
 }
 
 .footer {

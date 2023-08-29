@@ -235,6 +235,10 @@ body, html
           transform: scaleY(1)
   &__resume
     font: normal 1.2rem/1.5rem "Times New Roman", sans-serif
+    max-width: 60%
+    margin: auto
+    @media screen and (max-width: 768px)
+      max-width: 100%
     &-label
       font-size: 1.5rem
       line-height: 1.8rem
@@ -254,6 +258,8 @@ body, html
       list-style-type: disc
       list-style-position: inside
       margin-left: 10px
+    & .purpose
+      margin-bottom: 20px
 
 .footer
   @include background-animation
