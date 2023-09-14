@@ -209,10 +209,13 @@ body, html {
   height: 100%;
   scrollbar-color: #833ab4 #f7b2b2;
   scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .wrapper {
-  min-height: 100%;
+  min-height: auto;
   display: flex;
   flex-direction: column;
 }
