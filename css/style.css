@@ -494,6 +494,15 @@ body, html {
   column-gap: 30px;
   row-gap: 30px;
   flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.main__education-title {
+  text-align: left;
+  font: 600 normal 2rem/3rem "Times New Roman", sans-serif;
+  margin-bottom: 30px;
+  color: indianred;
+  border-bottom: 3px double rgba(251, 63, 76, 0.2);
+  letter-spacing: 5px;
 }
 .main__education-item {
   width: 33.333%;
@@ -509,6 +518,9 @@ body, html {
   .main__education-item {
     width: 100%;
   }
+}
+.main__education-item.experience img {
+  max-height: 793px;
 }
 .main__education-item-bg {
   position: absolute;
@@ -528,6 +540,7 @@ body, html {
   border-radius: 10px;
   color: #ffffff;
   width: fit-content;
+  cursor: pointer;
 }
 .main__education-item-button:hover {
   background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
