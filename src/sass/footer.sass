@@ -1,0 +1,52 @@
+@import "mixins"
+@import "reset"
+
+.footer
+	@include background-animation
+	position: relative
+	padding: 30px 0
+
+	&__flexBlock
+		display: flex
+		justify-content: space-between
+		align-items: center
+		@media screen and (max-width: 600px)
+			display: block
+
+	&__contacts
+		@media screen and (max-width: 600px)
+			margin: 30px 0
+
+	&__contacts-item
+		display: flex
+		align-items: center
+		@media screen and (max-width: 600px)
+			margin-bottom: 20px
+			flex-direction: column
+
+		& svg
+			@include trans
+			margin-right: 10px
+			fill: #ffffff
+			&:hover
+				@include trans
+				fill: #e5dfe0
+
+		& a
+			color: cornsilk
+			font-size: 1.5rem
+			&:hover
+				@include headerName-bg
+
+	&__social
+		display: flex
+		column-gap: 10px
+		@media screen and (max-width: 600px)
+			justify-content: center
+
+		& svg
+			@include trans
+			fill: #ffffff
+			&:hover
+				@include trans
+				fill: #e5dfe0

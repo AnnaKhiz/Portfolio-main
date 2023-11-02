@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="043dee0a-07ee-4916-bbf8-78e738e3b916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/html/burger.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/burger.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/burger.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beauty.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/diploma-bac-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/diploma-bac-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/diploma-spec-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/diploma-spec-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/final-hillel.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fox-digital-blue.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fox-digital.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/future-academy.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hobby-art.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons8-telegram-app.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons8-telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/istockphoto-539118773-1024x1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/localize.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/meliorit.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/only.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/react-users.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sertificat-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sertificat-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/burger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/burger.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/mixins.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/reset.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/variables.sass" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2T9Rg2ueqy7NDUT861023IBN5no" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anyta\Desktop\Portfolio-Khizhniak\Portfolio-main\Portfolio-main\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="043dee0a-07ee-4916-bbf8-78e738e3b916" name="Default Changelist" comment="" />
+      <created>1690453417323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690453417323</updated>
+      <workItem from="1690453421222" duration="4246000" />
+      <workItem from="1690528603732" duration="94000" />
+      <workItem from="1691312765566" duration="173000" />
+      <workItem from="1691395075149" duration="63000" />
+      <workItem from="1691489147034" duration="676000" />
+      <workItem from="1693162376447" duration="409000" />
+      <workItem from="1693220583369" duration="1946000" />
+      <workItem from="1693311972970" duration="1050000" />
+      <workItem from="1694087746413" duration="124000" />
+      <workItem from="1694087970830" duration="593000" />
+      <workItem from="1694713258983" duration="3242000" />
+      <workItem from="1697008417112" duration="68000" />
+      <workItem from="1697895725667" duration="2964000" />
+      <workItem from="1698926929371" duration="5202000" />
+    </task>
+    <task id="LOCAL-00001" summary="add page resume">
+      <created>1690456165552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690456165552</updated>
+    </task>
+    <task id="LOCAL-00002" summary="check links. update some">
+      <created>1690457783200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690457783200</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add link to burger">
+      <created>1690528664922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690528664922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update email address">
+      <created>1691312928069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691312928069</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add react project">
+      <created>1691395119259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691395119259</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edit hover on link 'view more'">
+      <created>1691489805040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691489805040</updated>
+    </task>
+    <task id="LOCAL-00007" summary="edit resume">
+      <created>1693222529745</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693222529745</updated>
+    </task>
+    <task id="LOCAL-00008" summary="edit resume">
+      <created>1693312984591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693312984591</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change github link in burger">
+      <created>1694087852751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694087852751</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add CMS page">
+      <created>1694714533248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694714533248</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add CMS page + link">
+      <created>1694718134083</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694718134083</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add internship sertificat">
+      <created>1697898645945</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697898645945</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add page resume" />
+    <MESSAGE value="check links. update some" />
+    <MESSAGE value="add link to burger" />
+    <MESSAGE value="update email address" />
+    <MESSAGE value="add react project" />
+    <MESSAGE value="edit hover on link 'view more'" />
+    <MESSAGE value="edit resume" />
+    <MESSAGE value="change github link in burger" />
+    <MESSAGE value="add CMS page" />
+    <MESSAGE value="add CMS page + link" />
+    <MESSAGE value="add internship sertificat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add internship sertificat" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1698931886350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698931886350" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1697898653862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1697898653862" />
+  </component>
+</project>

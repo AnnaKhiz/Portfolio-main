@@ -1,0 +1,50 @@
+@import "mixins"
+@import "reset"
+@import "burger"
+@import "header"
+@import "main"
+@import "footer"
+
+body, html
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  height: 100%
+  scrollbar-color: #833ab4 #f7b2b2
+  scrollbar-width: thin
+
+.wrapper
+  display: flex
+  flex-direction: column
+  min-height: auto //100%
+
+.container
+  max-width: 1550px
+  padding: 0 15px
+  margin: 0 auto
+
+::-webkit-scrollbar
+  width: 3px
+  background: -webkit-gradient(linear, left top, right top, from(rgb(131, 58, 180)), color-stop(rgb(253, 29, 29)), to(rgb(252, 176, 69)))
+  background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69))
+
+::-webkit-scrollbar-thumb
+  width: 3px
+  background-color: rgb(131, 58, 180, 50%)
+
+::-webkit-scrollbar-thumb:hover
+  width: 3px
+  background-color: rgb(252, 176, 69)
+
+.fixed
+  overflow: hidden
+  width: 100%
+
+.scroll
+  overflow: auto
+
+#menu__toggle
+  opacity: 0
+
+
+

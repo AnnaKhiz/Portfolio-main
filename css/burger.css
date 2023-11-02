@@ -115,16 +115,3 @@
   transform: translate(-50%, 0%) rotate(-45deg);
   background-color: cornsilk;
 }
-
-.fixed {
-  overflow: hidden;
-  width: 100%;
-}
-
-.scroll {
-  overflow: auto;
-}
-
-#menu__toggle {
-  opacity: 0;
-}

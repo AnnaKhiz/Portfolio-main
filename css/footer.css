@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+html a, html a:visited {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+body ul, body li {
+  margin: 0;
+  padding: 0;
+}
+
+body img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background: linear-gradient(to right, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
+  background-size: 400% 100vh;
+  animation: animatedBg 5s infinite ease-in-out;
+  padding: 30px 0;
+  position: relative;
+}
+@keyframes animatedBg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.footer__flexBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .footer__flexBlock {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer__contacts {
+    margin: 30px 0;
+  }
+}
+.footer__contacts-item {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .footer__contacts-item {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
+.footer__contacts-item svg {
+  fill: #ffffff;
+  margin-right: 10px;
+  transition: all ease-in-out 0.5s;
+}
+.footer__contacts-item svg:hover {
+  transition: all ease-in-out 0.5s;
+  fill: #e5dfe0;
+}
+.footer__contacts-item a {
+  color: cornsilk;
+  font-size: 1.5rem;
+}
+.footer__contacts-item a:hover {
+  background-color: #fb3f4c;
+  background-image: linear-gradient(74deg, rgb(251, 63, 76) 0%, rgb(252, 73, 251) 53%, rgb(252, 201, 70) 100%);
+  background: -moz-linear-gradient(74deg, rgb(251, 63, 76) 0%, rgb(252, 73, 251) 53%, rgb(252, 201, 70) 100%);
+  background: -webkit-linear-gradient(74deg, rgb(251, 63, 76) 0%, rgb(252, 73, 251) 53%, rgb(252, 201, 70) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb3f4c",endColorstr="#fcc946",GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer__social {
+  display: flex;
+  column-gap: 10px;
+}
+@media screen and (max-width: 600px) {
+  .footer__social {
+    justify-content: center;
+  }
+}
+.footer__social svg {
+  fill: #ffffff;
+  transition: all ease-in-out 0.5s;
+}
+.footer__social svg:hover {
+  transition: all ease-in-out 0.5s;
+  fill: #e5dfe0;
+}

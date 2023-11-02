@@ -1,0 +1,199 @@
+@import "mixins"
+@import "reset"
+
+.main
+	flex: 0 1 auto
+	padding: 40px 0
+	background-color: #ffffff
+
+	&__gallery
+		display: flex
+		justify-content: center
+		column-gap: 30px
+		row-gap: 30px
+		flex-wrap: wrap
+
+		&-item
+			position: relative
+			align-items: center
+			justify-content: center
+			width: 31.333%
+			height: 350px
+			box-shadow: 1px 1px 10px black
+			@media screen and (max-width: 900px)
+				width: 47.333%
+			@media screen and (max-width: 600px)
+				width: 100%
+
+			&-img
+				@include trans
+				overflow: hidden
+				width: 100%
+				height: 100%
+				object-fit: cover
+				&:hover
+					@include trans
+					overflow-y: auto
+
+				& img
+					width: 100%
+					height: auto
+					&:hover
+						@include trans
+						transform: scale3d(0.9, 0.9, 0.3) translateY(-5%)
+						perspective: -1
+						cursor: grabbing
+
+		&-textBlock
+			@include trans
+			position: absolute
+			bottom: 0
+			left: 0
+			display: flex
+			flex-direction: column
+			justify-content: flex-end
+			align-items: flex-start
+			padding: 10px 10px
+			background-color: rgba(3, 3, 3, 0.3)
+			@media screen and (max-width: 768px)
+				border-top-right-radius: 65%
+				height: 200px
+				background-color: rgba(3, 3, 3, 0.7)
+			@media screen and (min-width: 768px)
+				&:hover
+					@include trans
+					border-top-right-radius: 65%
+					height: 200px
+					background-color: rgba(3, 3, 3, 0.7)
+
+					h3.main__gallery-textBlock-label
+						@include trans
+						display: block
+						margin-bottom: 20px
+						color: cornsilk
+
+					p.main__gallery-textBlock-info
+						@include trans
+						display: block
+						margin-bottom: 15px
+						color: cornsilk
+
+			&-label, &-info
+				@include trans
+				display: none
+				max-width: 160px
+				overflow: hidden
+				@media screen and (max-width: 768px)
+					display: block
+					color: cornsilk
+
+			&-label
+				@media screen and (max-width: 768px)
+					margin-bottom: 20px
+
+			&-info
+				@media screen and (max-width: 768px)
+					margin-bottom: 15px
+
+			&-button
+				@include button-red
+				&:hover
+					@include background-animation
+
+	&__education
+
+		&-block
+			display: flex
+			justify-content: center
+			column-gap: 30px
+			row-gap: 30px
+			flex-wrap: wrap
+			margin-bottom: 40px
+
+		&-title
+			border-bottom: 3px double rgba(251,63,76,0.2)
+			margin-bottom: 30px
+			text-align: left
+			font: 600 normal 2rem/3rem 'Times New Roman', sans-serif
+			color: indianred
+			letter-spacing: 5px
+
+		&-item
+			position: relative
+			width: 33.333%
+			box-shadow: 1px 1px 10px black
+			@media screen and (max-width: 900px)
+				width: 47.333%
+			@media screen and (max-width: 600px)
+				width: 100%
+
+			&.experience
+				& img
+					max-height: 793px
+
+			&-bg
+				position: absolute
+				left: 0
+				bottom: 0
+				padding: 10px
+				background-color: rgba(3, 3, 3, 0.3)
+
+			& img
+				width: 100%
+				height: auto
+
+			&-button
+				@include button-red
+				width: fit-content
+				cursor: pointer
+				&:hover
+					@include background-animation
+
+			&.diploma
+				box-shadow: none
+
+				& .front
+					position: absolute
+					top: 0
+					right: 0
+					z-index: 2
+					transition: all 1s ease-in-out 0s
+					&:hover
+						opacity: 0
+						transition: all 1s ease-in-out 0s
+
+				& .back
+					transform: scaleY(1)
+
+	&__resume
+		max-width: 60%
+		margin: auto
+		font: normal 1.2rem/1.5rem "Times New Roman", sans-serif
+		@media screen and (max-width: 768px)
+			max-width: 100%
+
+		&-label
+			@include headerName-bg
+			margin-bottom: 10px
+			font-size: 1.5rem
+			font-style: italic
+			line-height: 1.8rem
+
+		& ul, .qualities, .experience
+			margin-bottom: 20px
+
+			& li > a
+				color: #833ab4
+				transition: all 0.5s ease-in-out 0s
+				&:hover
+					color: brown
+					text-decoration: underline
+					transition: all 0.5s ease-in-out 0s
+
+		& .qualities li
+			margin-left: 10px
+			list-style-type: disc
+			list-style-position: inside
+
+		& .purpose
+			margin-bottom: 20px

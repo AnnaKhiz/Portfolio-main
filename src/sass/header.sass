@@ -1,0 +1,89 @@
+@import "mixins"
+@import "reset"
+
+.header
+	@include background-animation
+	padding: 20px 0 0 0
+
+	&__name
+		color: cornsilk
+		font-size: 2rem
+		font-weight: 700
+
+	&__flexbox
+		display: flex
+		justify-content: space-between
+		margin-bottom: 50px
+		align-items: center
+		@media screen and (max-width: 768px)
+			max-width: 50%
+
+	&__navigation ul
+		display: flex
+		align-items: center
+		justify-content: right
+		column-gap: 15px
+		@media screen and (max-width: 768px)
+			display: none
+
+		& a
+			@include trans
+			color: cornsilk
+			font-size: 1.2rem
+			&:hover
+				@include trans
+				padding-bottom: 3px
+				border-bottom: 1.5px solid cornsilk
+
+	&__waves
+
+		& .waves
+			position: relative
+			width: 100%
+			height: 15vh
+			margin-bottom: -7px
+			min-height: 100px
+			@media screen and (max-width: 768px)
+				height: 40px
+				min-height: 40px
+
+		& .parallax
+			& > use
+				-webkit-animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite
+				animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite
+			& > use:nth-child(1)
+				-webkit-animation-delay: -2s
+				animation-delay: -2s
+				-webkit-animation-duration: 7s
+				animation-duration: 7s
+			& > use:nth-child(2)
+				-webkit-animation-delay: -3s
+				animation-delay: -3s
+				-webkit-animation-duration: 10s
+				animation-duration: 10s
+			& > use:nth-child(3)
+				-webkit-animation-delay: -4s
+				animation-delay: -4s
+				-webkit-animation-duration: 13s
+				animation-duration: 13s
+			& > use:nth-child(4)
+				-webkit-animation-delay: -5s
+				animation-delay: -5s
+				-webkit-animation-duration: 20s
+				animation-duration: 20s
+
+	@-webkit-keyframes move-forever
+		0%
+			-webkit-transform: translate3d(-90px,0,0)
+			transform: translate3d(-90px,0,0)
+		100%
+			-webkit-transform: translate3d(85px,0,0)
+			transform: translate3d(85px,0,0)
+
+	@keyframes move-forever
+		0%
+			-webkit-transform: translate3d(-90px,0,0)
+			transform: translate3d(-90px,0,0)
+		100%
+			-webkit-transform: translate3d(85px,0,0)
+			transform: translate3d(85px,0,0)

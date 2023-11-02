@@ -1,0 +1,93 @@
+@import 'mixins'
+
+.burger
+  @include trans
+  z-index: 3
+  position: fixed
+
+  &__container
+    @include trans
+    @include background-animation
+    position: fixed
+    left: 0
+    top: 0
+    overflow: hidden
+    width: 100%
+    height: 100vh
+    max-width: 100%
+    padding: 64px 12px
+    opacity: 0
+    pointer-events: none
+    transform: translateX(100%)
+
+  &.show .burger__container
+    @include trans
+    opacity: 1
+    transform: translateX(0)
+    pointer-events: initial
+
+  &__item a
+    display: block
+    padding: 15px 0
+    margin: 10px
+    color: cornsilk
+    font-size: 2rem
+    text-align: center
+    background-color: rgba(240,240,240,20%)
+
+  &__item a:hover, &__item a:active, &__item a:focus
+    color: brown
+
+  &.show
+    top: 0
+
+  &__list-menu
+    display: none
+    @media screen and (max-width: 768px)
+      display: block
+      height: 65vh
+    & li
+      margin: 5px 0
+
+.menu__btn
+  position: absolute
+  right: 15px
+  top: 22px
+  z-index: 23
+  overflow: hidden
+  display: none
+  width: 30px
+  height: 30px
+  @media screen and (max-width: 768px)
+    display: block
+  @media screen and (max-width: 767px)
+    right: 12px
+    top: 22px
+
+  & span
+    @include trans
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 30px
+    height: 2px
+    transform: translate(-50%, -50%)
+    background-color: cornsilk
+    &:nth-of-type(2)
+      top: calc(50% - 8px)
+    &:nth-of-type(3)
+      top: calc(50% + 8px)
+
+  &.active span:nth-of-type(1)
+    display: none
+
+  &.active span:nth-of-type(2)
+    top: 50%
+    transform: translate(-50%, 0%) rotate(45deg)
+    background-color: cornsilk
+
+  &.active span:nth-of-type(3)
+    top: 50%
+    transform: translate(-50%, 0%) rotate(-45deg)
+    background-color: cornsilk
+
