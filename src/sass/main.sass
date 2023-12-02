@@ -14,6 +14,7 @@
 		flex-wrap: wrap
 
 		&-item
+			@include trans
 			position: relative
 			align-items: center
 			justify-content: center
@@ -22,8 +23,12 @@
 			box-shadow: 1px 1px 10px black
 			@media screen and (max-width: 900px)
 				width: 47.333%
-			@media screen and (max-width: 600px)
+			@media screen and (max-width: 660px)
 				width: 100%
+			&:hover
+				& .main__gallery-textBlock.right
+					@include trans
+					opacity: 1
 
 			&-img
 				@include trans
@@ -56,9 +61,12 @@
 			padding: 10px 10px
 			background-color: rgba(3, 3, 3, 0.3)
 			@media screen and (max-width: 768px)
-				border-top-right-radius: 65%
-				height: 200px
+				width: 100%
+				height: 40%
+				border-top-right-radius: 0
 				background-color: rgba(3, 3, 3, 0.7)
+			@media screen and (max-width: 340px)
+				height: 50%
 			@media screen and (min-width: 768px)
 				&:hover
 					@include trans
@@ -78,6 +86,20 @@
 						margin-bottom: 15px
 						color: cornsilk
 
+			&.right
+				@include trans
+				opacity: 0
+				right: 0
+				left: unset
+				border-top-right-radius: 0
+				height: fit-content
+				background-color: unset
+				@media screen and (max-width: 768px)
+					width: fit-content
+					opacity: 1
+
+
+
 			&-label, &-info
 				@include trans
 				display: none
@@ -85,6 +107,7 @@
 				overflow: hidden
 				@media screen and (max-width: 768px)
 					display: block
+					max-width: 100%
 					color: cornsilk
 
 			&-label
