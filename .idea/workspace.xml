@@ -26,10 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043dee0a-07ee-4916-bbf8-78e738e3b916" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/burger.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/burger.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cv.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
       <workItem from="1699868636869" duration="1352000" />
       <workItem from="1701546811437" duration="4233000" />
       <workItem from="1701551343689" duration="725000" />
-      <workItem from="1702031854114" duration="48000" />
+      <workItem from="1702031854114" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="add page resume">
       <created>1690456165552</created>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701551457577</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="rename cv page">
+      <created>1702031957615</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702031957615</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,16 +263,17 @@
     <MESSAGE value="add react page + react-promo project" />
     <MESSAGE value="add react-currency-exchange. add git button to every project" />
     <MESSAGE value="edit hover style on git button" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit hover style on git button" />
+    <MESSAGE value="rename cv page" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename cv page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1698931886350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698931886350" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1701551467959">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702031962774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1701551467959" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702031962774" />
   </component>
 </project>
