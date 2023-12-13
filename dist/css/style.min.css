@@ -780,6 +780,9 @@ h1, h2, h3, h4, h5, h6 {
 .main__resume .purpose {
   margin-bottom: 20px;
 }
+.main__resume .experience-other li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
 
 * {
   padding: 0;

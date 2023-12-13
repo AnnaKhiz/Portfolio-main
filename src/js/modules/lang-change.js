@@ -1,48 +1,45 @@
-import {langObj} from "./lang-array.js";
+import {arrayEN} from "./en-array.js";
+import {arrayRU} from "./ru-array.js";
+import {arrayUA} from "./ua-array.js";
 
 export function changeLanguage() {
-  let cookieVar;
-
   const appliedLang = ['en', 'ua', 'ru'];
-  console.log(langObj);
-
   const langButtons = [...document.querySelectorAll('.header__lang__item')];
-  console.log(langButtons)
+
+  const langObj = {
+    "en": arrayEN,
+    "ru": arrayRU,
+    "ua": arrayUA,
+  };
 
   langButtons.forEach((button) => {
     button.addEventListener('click', (event) => {
-      // event.preventDefault()
       let target = event.target.dataset.id;
-      cookieVar = target;
-
-      location.href = `${window.location.pathname}#${cookieVar}`;
+      window.localStorage.setItem('lang', target);
+      location.href = `${window.location.pathname}#${window.localStorage.getItem('lang')}`;
       location.reload();
-
-      // console.log(cookieVar)
     })
   })
+
   changePageLang();
 
   function changePageLang() {
     let hash = window.location.hash.substr(1);
-    console.log('hash '+ hash)
+
     if (!appliedLang.includes(hash)) {
       location.href = `${window.location.pathname}#en`;
       location.reload();
     }
-    cookieVar = hash;
+
+    window.localStorage.setItem('lang', hash);
     document.querySelector('title').innerHTML = langObj[hash]['title'];
 
     for (let key in langObj[hash]) {
       if (document.querySelector(`.lng-${key}`)) {
-        console.log(langObj[hash][key]);
         [...document.querySelectorAll(`.lng-${key}`)].forEach(element => {
           element.innerHTML = langObj[hash][key];
         })
       }
-
     }
-
   }
-  console.log(cookieVar)
 }
