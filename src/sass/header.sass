@@ -5,10 +5,30 @@
 	@include background-animation
 	padding: 20px 0 0 0
 
-	&__name
+	&__name a
 		color: cornsilk
 		font-size: 2rem
 		font-weight: 700
+	&__lang
+		display: flex
+		justify-content: flex-end
+		align-items: center
+		column-gap: 15px
+		margin-bottom: 10px
+		&__item
+			width: fit-content
+			background-color: transparent
+			scroll-margin-top: 20px
+			& img
+				width: 30px
+				height: auto
+				border: 2px solid transparent
+				border-radius: 50%
+				transition: filter 0.3s ease-in-out 0s
+				&:hover
+					transition: filter 0.3s ease-in-out 0s
+					filter: drop-shadow(1px 1px 7px #fff8dc)
+
 
 	&__flexbox
 		display: flex
