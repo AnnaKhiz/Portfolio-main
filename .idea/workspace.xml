@@ -25,19 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043dee0a-07ee-4916-bbf8-78e738e3b916" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cms.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/react.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/react.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/burger.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/burger.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/header.sass" afterDir="false" />
-    </list>
+    <list default="true" id="043dee0a-07ee-4916-bbf8-78e738e3b916" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +89,7 @@
       <workItem from="1701546811437" duration="4233000" />
       <workItem from="1701551343689" duration="725000" />
       <workItem from="1702031854114" duration="368000" />
-      <workItem from="1702456660053" duration="26953000" />
+      <workItem from="1702456660053" duration="27027000" />
     </task>
     <task id="LOCAL-00001" summary="add page resume">
       <created>1690456165552</created>
@@ -250,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702503286201</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="adaptive switch language buttons">
+      <created>1702503633888</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702503633888</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,16 +294,17 @@
     <MESSAGE value="rename cv page" />
     <MESSAGE value="started language switcher" />
     <MESSAGE value="language switcher done" />
-    <option name="LAST_COMMIT_MESSAGE" value="language switcher done" />
+    <MESSAGE value="adaptive switch language buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptive switch language buttons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1698931886350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698931886350" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702503292246">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702503640905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702503292246" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702503640905" />
   </component>
 </project>
