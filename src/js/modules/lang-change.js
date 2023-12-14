@@ -34,12 +34,13 @@ export function changeLanguage() {
     }
 
     window.localStorage.setItem('lang', hash);
-    document.querySelector('title').innerHTML = langObj[hash]['title'];
+    document.querySelector('title').innerText = langObj[hash]['title'];
 
     for (let key in langObj[hash]) {
       if (document.querySelector(`.lng-${key}`)) {
-        [...document.querySelectorAll(`.lng-${key}`)].forEach(element => {
-          element.innerHTML = langObj[hash][key];
+        const keysArray = [...document.querySelectorAll(`.lng-${key}`)];
+        keysArray.forEach(element => {
+          element.innerText = langObj[hash][key];
         })
       }
     }

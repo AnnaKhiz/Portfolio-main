@@ -32,27 +32,22 @@
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-bac-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/diploma-bac-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-bac-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-bac-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/diploma-bac-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-bac-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-spec-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/diploma-spec-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-spec-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-spec-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/diploma-spec-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma-spec-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/istockphoto-539118773-1024x1024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/istockphoto-539118773-1024x1024.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/istockphoto-539118773-1024x1024.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sertificat-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sertificat-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sertificat-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sertificat-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sertificat-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sertificat-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/diploma-bac-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/diploma-bac-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/diploma-spec-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/diploma-spec-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/en.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/istockphoto-539118773-1024x1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/load.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ru.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sertificat-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sertificat-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ua.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/react.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/react.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/lang-change.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/lang-change.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +114,7 @@
       <workItem from="1701551343689" duration="725000" />
       <workItem from="1702031854114" duration="368000" />
       <workItem from="1702456660053" duration="31246000" />
-      <workItem from="1702543075801" duration="3589000" />
+      <workItem from="1702543075801" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="add page resume">
       <created>1690456165552</created>
@@ -324,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702546710628</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add progress icon">
+      <created>1702546977469</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702546977469</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,9 +389,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698931886350" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702546720887">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702546982375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702546720887" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702546982375" />
   </component>
 </project>
