@@ -12,6 +12,8 @@ export function changeLanguage() {
     "ua": arrayUA,
   };
 
+  changePageLang();
+
   langButtons.forEach((button) => {
     button.addEventListener('click', (event) => {
       let target = event.target.dataset.id;
@@ -21,7 +23,7 @@ export function changeLanguage() {
     })
   })
 
-  changePageLang();
+
 
   function changePageLang() {
     let hash = window.location.hash.substr(1);
