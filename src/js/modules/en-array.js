@@ -74,5 +74,4 @@ export const arrayEN = {
   "ukrainianLang": "Ukrainian (native)",
   "russianLang": "Russian (native)",
   "englishLang": "English (intermediate)",
-  "inProgress": "(--IN PROGRESS--)",
 }

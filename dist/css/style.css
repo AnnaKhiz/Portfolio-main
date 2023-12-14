@@ -645,6 +645,24 @@ h6 {
   opacity: 1;
 }
 
+.main__gallery-item.progress:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+  width: 35px;
+  height: 35px;
+}
+
+.main__gallery-item.progress:after {
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  z-index: 2;
+  content: url("../img/load.png");
+}
+
 .main__gallery-item-img {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
@@ -1260,10 +1278,13 @@ html {
 
   .main__gallery-textBlock-label {
     margin-bottom: 10px;
+    height: 20px;
   }
 
   .main__gallery-textBlock-info {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 0.85rem;
   }
 
   .main__resume {

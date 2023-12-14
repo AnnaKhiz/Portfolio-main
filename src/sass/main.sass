@@ -29,7 +29,20 @@
 				& .main__gallery-textBlock.right
 					@include trans
 					opacity: 1
-
+			&.progress:before
+				position: absolute
+				top: 0
+				left: 0
+				z-index: 1
+				content: ''
+				width: 35px
+				height: 35px
+			&.progress:after
+				position: absolute
+				top: 3px
+				left: 1px
+				z-index: 2
+				content: url("../img/load.png")
 			&-img
 				@include trans
 				overflow: hidden
@@ -121,8 +134,9 @@
 
 			&-info
 				@media screen and (max-width: 768px)
-					margin-bottom: 15px
-					font-size: 0.9rem
+					margin-bottom: 10px
+					height: 50px
+					font-size: 0.85rem
 
 			&-button
 				@include button-red
