@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="043dee0a-07ee-4916-bbf8-78e738e3b916" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/en-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/en-array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/ru-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/ru-array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/ua-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/ua-array.js" afterDir="false" />
@@ -95,7 +94,7 @@
       <workItem from="1701546811437" duration="4233000" />
       <workItem from="1701551343689" duration="725000" />
       <workItem from="1702031854114" duration="368000" />
-      <workItem from="1702456660053" duration="30898000" />
+      <workItem from="1702456660053" duration="31183000" />
     </task>
     <task id="LOCAL-00001" summary="add page resume">
       <created>1690456165552</created>
@@ -265,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702541884183</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="edit description to future academy">
+      <created>1702542377883</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702542377884</updated>
+    </task>
+    <task id="LOCAL-00026" summary="build">
+      <created>1702542428814</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702542428814</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,18 +328,19 @@
     <MESSAGE value="started language switcher" />
     <MESSAGE value="language switcher done" />
     <MESSAGE value="adaptive switch language buttons" />
-    <MESSAGE value="build" />
     <MESSAGE value="edit burger" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit burger" />
+    <MESSAGE value="edit description to future academy" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1698931886350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698931886350" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702541895776">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702542433817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702541895776" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702542433817" />
   </component>
 </project>

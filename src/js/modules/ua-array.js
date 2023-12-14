@@ -73,5 +73,5 @@ export const  arrayUA = {
   "ukrainianLang": "Українська (рідна)",
   "russianLang": "Російська (відмінно)",
   "englishLang": "Английска (intermediate)",
-  "lng-inProgress": "(--В РОБОТI--)",
+  "inProgress": "(--В РОБОТI--)",
 }
