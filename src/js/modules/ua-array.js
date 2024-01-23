@@ -73,4 +73,5 @@ export const  arrayUA = {
   "ukrainianLang": "Українська (рідна)",
   "russianLang": "Російська (відмінно)",
   "englishLang": "Английска (intermediate)",
+  "node": "(вивчаю з сiчня 2024)",
 }

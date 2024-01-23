@@ -73,4 +73,5 @@ export const arrayRU = {
   "ukrainianLang": "Украинский (родной)",
   "russianLang": "Русский (отлично)",
   "englishLang": "Английский (intermediate)",
+  "node": "(изучаю с января 2024)",
 }

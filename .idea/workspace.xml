@@ -27,7 +27,10 @@
   <component name="ChangeListManager">
     <list default="true" id="043dee0a-07ee-4916-bbf8-78e738e3b916" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/en-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/en-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/ru-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/ru-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/ua-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/ua-array.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,8 @@
       <workItem from="1702031854114" duration="368000" />
       <workItem from="1702456660053" duration="31246000" />
       <workItem from="1702543075801" duration="4068000" />
-      <workItem from="1702565818848" duration="11000" />
+      <workItem from="1702565818848" duration="733000" />
+      <workItem from="1706025972216" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="add page resume">
       <created>1690456165552</created>
@@ -320,7 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702547248355</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="delete beauty site">
+      <created>1702565875495</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702565875495</updated>
+    </task>
+    <task id="LOCAL-00034" summary="delete beauty site">
+      <created>1702565883360</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702565883360</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +369,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="check links. update some" />
     <MESSAGE value="add link to burger" />
     <MESSAGE value="update email address" />
     <MESSAGE value="add react project" />
@@ -376,16 +393,17 @@
     <MESSAGE value="edit font-size in block description" />
     <MESSAGE value="add progress icon" />
     <MESSAGE value="edit change lang function" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit change lang function" />
+    <MESSAGE value="delete beauty site" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete beauty site" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1698931886350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698931886350" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702547254571">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1702565889734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702547254571" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702565889734" />
   </component>
 </project>

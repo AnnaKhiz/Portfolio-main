@@ -57,6 +57,7 @@ export const arrayEN = {
   "experienceOperatorResp": "Responsibilities: consulting clients, interacting with other company departments for resolving client issues, selling company services. ",
   "techSkills": "Tech skills:",
   "typescript": "(study since November 2023)",
+  "node": "(study since January 2024)",
   "basic": "(basic knowledge)",
   "softSkills": "Soft skills:",
   "adaptivity": "Adaptivity",
