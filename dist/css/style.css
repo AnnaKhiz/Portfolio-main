@@ -1140,8 +1140,7 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  scrollbar-color: #833ab4 #f7b2b2;
-  scrollbar-width: thin;
+  scrollbar-width: none;
 }
 
 .wrapper {

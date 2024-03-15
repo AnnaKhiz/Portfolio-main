@@ -9,6 +9,8 @@ export function navigateLinks() {
 
       if (link === 'github') {
         window.open(`https://github.com/AnnaKhiz?tab=repositories`)
+      } else if (link === 'cv') {
+        window.open(`./public/cv_${window.localStorage.getItem('lang')}.pdf`)
       } else {
         switch (window.localStorage.getItem('lang')) {
           case 'en':
